@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+  <link href="css/request_form_style.css?version=1" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<form method="POST" name="myemailform" action="form-to-email.php">
+  <h2>Contact Information</h2>
+
+  <label id="fullname-label">Full Name</label>
+  <input class="input" id="fullname" type="name" name="name"></input>
+
+  <label id="email-label">Email</label>
+  <input class="input" id="email" type="email" name="email"></input>
+
+  <label id="phone-label">Phone</label>
+  <input class="input" id="phone" type="phone" name="phone"></input>
+
+  <h2>Request Services</h2>
+
+  <div id='request-container'>
+    <label id="request-label">What would you like to request?</label>
+    <select class="input" id="request-dropdown" name="requestSelection"></select>
+  </div>
+
+  <button type="submit" name="submit" class ="button" id="submit">Submit</button>
+
+</form>
+
+<script src="js/request_form_scripts.js?version=1"></script>
