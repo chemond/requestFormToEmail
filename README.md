@@ -9,3 +9,5 @@ This is a responsive design using CSS3 flex-box. The process flow is as follows:
 * This will process the <i>form-to-email.php</i> script
 * <i>form-to-email.php</i> will take the values from the form and send an email to any email address from an email address set up on your SMTP server
 * After the script has processed, you are redirected to the <i>success.php<i> script which echos a success message and will redirect you to <i>index.html</i> after 5 seconds
+
+The drop down selection is populated using JSON. The JSON is created/stored here: http://myjson.com/1dxewo .
